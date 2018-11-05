@@ -32,7 +32,7 @@ function bubbleSort(arr) {
     }
     else if (i === arr.length - 1 && swapCount === 0) {
       return arr
-    } else if (i === arr.length-1 && swapCount > 0) {
+    } else if (i === arr.length - 1 && swapCount > 0) {
       return bubbleSort(arr)
     }
   }
